@@ -7,16 +7,19 @@ Copy the content of all your open tabs. It's an ideal tool for quickly sharing c
 ## Features
 
 - **Copy All Open Files**: With a simple command, you can copy the text content from all open files in your editor.
+- **Copy Active Tab**: Easily copy the text content from the currently active tab.
 - **Cross-Language Support**: CopyTab can work with any file type that VS Code supports, from Python and JavaScript to Markdown and plain text files.
 - **Real-time Tracking**: The extension tracks the files you are working on and includes their content when you execute the copy command.
-- **Status Bar Indicator**: A handy status bar item shows you when the extension is actively tracking a file. Click the status bar item to instantly copy all tracked files to your clipboard.
+- **Status Bar Indicator**: Handy status bar items show you when the extension is actively tracking files. Click the status bar item to instantly copy all tracked files to your clipboard.
 
 ## How to use
 
 1. Open all the files you want to copy in VS Code tabs.
 2. **Important:** You must click on each open tab to activate it. The extension starts tracking a file once it's activated. If a tab is not clicked, its content will not be included in the copy command.
-3. Click the "CopyTab: Tracking" status bar item or run the "Copy All Open Files" command from the Command Palette (F1).
-4. All the text from your open files is now copied to your clipboard!
+3. Click the "CopyTab: All tabs" status bar item or run the "Copy All Open Files" command from the Command Palette (F1) to copy all open files.
+4. Click the "CopyTab: Active tab" status bar item or run the "Copy Active Tab" command from the Command Palette (F1) to copy the active tab.
+5. All the text from your selected files is now copied to your clipboard!
+
 ## Release Notes
 
 ### 1.0.0
